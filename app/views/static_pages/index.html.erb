@@ -1,0 +1,39 @@
+<%= javascript_pack_tag 'index', 'data-turbolinks-track': 'reload' %>
+
+<body>
+  <div class="container-fluid text-center text-white">
+    <div class="logo mt-2">
+      <div id="sun"></div>
+    </div>
+    <div class="row">
+      <div class="col-12 text-center">
+        <h4 class="mt-2 w-100 date"></h4>
+        <h1>Good <span id="greeting">Morning</span></h1>
+        <h3>These are your tasks for today:</h3>
+      </div>
+      <div class="col-12 selector text-end white-tab ms-auto">
+        <button class="btn select-btn rounded-pill all-list">All</button>
+        <button class="btn select-btn rounded-pill active-list">Active</button>
+        <button class="btn select-btn rounded-pill completed-list">Completed</button>
+      </div>
+      <div class="col-12 white-background">
+        <table class="table table-responsive">
+          <thead>
+            <tr>
+              <th scope="col"></th>
+              <th scope="col">Name</th>
+              <th scope="col">Made on</th>
+              <th scope="col"></th>
+            </tr>
+          </thead>
+          <tbody>
+          </tbody>
+        </table>
+
+        <form class="text-center" id="add-task">
+          <input type="text" placeholder="Task" name="task-name" required />
+          <button class="btn btn-outline-primary ms-5 add-task">Add</button>
+        </form>
+      </div>
+    </div>
+  </div>

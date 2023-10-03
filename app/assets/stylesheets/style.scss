@@ -1,0 +1,120 @@
+.select-btn {
+  background-color: white;
+  border: 2px solid black;
+  min-width: 75px;
+}
+
+.active-btn {
+  background-color: lightgrey;
+}
+
+.tag-select {
+  display: inline;
+  width: 75px;
+  max-width: 75px;
+  height: 40px;
+  border: 2px solid black;
+  margin-top: 10px;
+}
+
+.white-tab {
+  background-color: white;
+  max-width: 380px !important;
+  border-top-left-radius: 25px;
+  border-top-right-radius: 25px;
+}
+
+.container-fluid {
+  max-width: 1200px;
+}
+
+.Morning,
+.Afternoon,
+.Evening,
+.Night {
+  min-height: 100vmax;
+  min-width: 100vmax;
+}
+
+.Morning {
+  background-color: #FFD0AA;
+}
+
+.Afternoon {
+  background-color: #FD997F;
+}
+
+.Evening {
+  background-color: #9A7E8E;
+}
+
+.Night {
+  background-color: #001F38;
+}
+
+.logo {
+  height: 100px;
+  overflow-y: hidden;
+}
+
+#sun {
+  height: 50px;
+  width: 50px;
+  background-color: rgb(234, 201, 17);
+  border-radius: 100%;
+  position: relative;
+}
+
+.white-background {
+  width: 100%;
+  min-height: 100px;
+  background-color: white;
+  border-radius: 25px;
+  border-top-right-radius: 0;
+}
+
+input[type="checkbox"] {
+  width: 25px;
+  height: 25px;
+}
+
+.date-black {
+  color: black;
+}
+
+tr:last-child td {
+  border-bottom: none;
+}
+
+form {
+  border-top: 2px solid #81b4c3;
+}
+
+form>input {
+  border: none;
+  border-right: 2px solid #81b4c3;
+  width: 35%;
+  height: 50px;
+}
+
+.date {
+  width: 125px;
+}
+
+@media (max-width: 955px) {
+  form>input {
+    width: 30%;
+  }
+}
+
+@media (max-width: 722px) {
+  form>input {
+    width: 25%;
+  }
+}
+
+@media (max-width: 582px) {
+  form>input {
+    width: 18%;
+  }
+}
